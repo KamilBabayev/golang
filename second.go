@@ -8,4 +8,16 @@ import "fmt"
 
 func main() {
 	fmt.Println("1 + 1 =", 1 + 1)
+	fmt.Println("1 + 1 =", 1.0 + 1.0)	
+	fmt.Println("1 + 1 =", 1.3 + 1.2)	
+	fmt.Println(len("hello world"))
+	fmt.Println("hello world"[1])
+	fmt.Println("hello" + "world")
 }
+
+// Go lang supports this standard arithmetic operations: +, -, *, /, %
+// Golang support string type. string is sequence of characters
+// Strings are made of individual bytes, usually one for each character
+// String literals can be created via "string" or `string` backticks
+// len("hello")   - finds lenght,  "hello"[1]  - second character
+// "hello" + "world"  - concat
