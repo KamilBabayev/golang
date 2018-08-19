@@ -17,8 +17,8 @@ var num = 1
 
 func main() {
     var mystring = "1111111111"
-    User6 := "demo"
-    desc := "This is just description of the more important matter"
+	User6 := "demo"
+	desc := "This is just description of the more important matter"
 	fmt.Println(User1)
 	fmt.Println(User2)
     fmt.Println(User1, User2)
