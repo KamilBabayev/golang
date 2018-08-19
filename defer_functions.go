@@ -9,7 +9,7 @@ import (
 func main() {
 	file := createFile("names.txt")
 	defer closeFile(file)   // defer func here runs after writing to file function in below line.
-	writeToFile(file, "salam\n")
+	writeToFile(file, "Test Line\n")
 }
 
 func createFile(path string) *os.File {
