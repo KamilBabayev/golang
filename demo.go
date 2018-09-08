@@ -23,4 +23,12 @@ func main() {
     if name, ok := names["kamil"]; ok {
 	  fmt.Println(name, ok)
 	}
+
+    test := map[string]string{
+		"user1":"Admin",
+		"user2":"operator",
+		"user3":"system",
+	}
+   fmt.Println(test)
+   
 }
