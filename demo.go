@@ -29,6 +29,13 @@ func main() {
 		"user2":"operator",
 		"user3":"system",
 	}
-   fmt.Println(test)
+    fmt.Println(test)
+	second()
    
 }
+
+func second() {
+    fmt.Println()
+	fmt.Print("This is second function inside code beside main func\n")
+}
+
