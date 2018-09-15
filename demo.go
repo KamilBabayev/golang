@@ -39,3 +39,6 @@ func second() {
 	fmt.Print("This is second function inside code beside main func\n")
 }
 
+func f1() {
+	fmt.Println("")
+}
